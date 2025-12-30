@@ -4,16 +4,16 @@ A comprehensive Java application with 8+ array operations featuring an interacti
 
 ## ✨ Features
 
-|  Operation |      | Description |
-
-| **Create Array**  | Input custom arrays with size validation |
+| Operation | Description |
+|-----------|-------------|
+| **Create Array** | Input custom arrays with size validation |
 | **Display Array** | View array with size information |
 | **Sum & Average** | Calculate mathematical statistics |
-| **Find Min & Max**| Identify smallest and largest values |
+| **Find Min & Max** | Identify smallest and largest values |
 | **Linear Search** | Search for elements in array |
-| **Bubble Sort**   | Sort arrays with algorithm |
+| **Bubble Sort** | Sort arrays with algorithm |
 | **Reverse Array** | Invert array order |
-| **Count Even/Odd**| Analyze array composition |
+| **Count Even/Odd** | Analyze array composition |
 
 ## 🚀 Quick Start
 
