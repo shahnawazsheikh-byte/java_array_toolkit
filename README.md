@@ -24,7 +24,7 @@ A comprehensive Java application with 8+ array operations featuring an interacti
 ### Installation & Run
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR-USERNAME/java-array-toolkit.git
+git clone https://github.com/shahnawazsheikh-byte/java_array_toolkit
 
 # 2. Navigate to project directory
 cd java-array-toolkit
