@@ -3,7 +3,7 @@
  * Array Operations Toolkit
  * Author: Shahnawaz Sheikh
  * Features: 8 array operations including sorting, searching, and statistics
- * Last Updated: 30-dec-2025
+ * Last Updated: 01-jan-2026
  */
 import java.util.Arrays;
 import java.util.Scanner;
@@ -106,7 +106,7 @@ public class ArrayOperationsToolkit {
     public static boolean issorted_increasing(int arr[]) {
         boolean sorted = true;
         for (int i = 0; i < arr.length - 1; i++) {
-            if (arr[i] < arr[i + 1]) { // If increasing
+            if (arr[i] > arr[i + 1]) { // If increasing
                 sorted = false; // NOT sorted a
             }
         }
@@ -117,7 +117,7 @@ public class ArrayOperationsToolkit {
     public static boolean issorted_decreasing(int arr[]) {
         boolean sorted = true;
         for (int i = 0; i < arr.length - 1; i++) {
-            if (arr[i] > arr[i + 1]) { // if decreasing
+            if (arr[i] < arr[i + 1]) { // if decreasing
                 sorted = false; // NOT sorted 
             }
         }
@@ -296,3 +296,4 @@ public class ArrayOperationsToolkit {
 
     }
 }
+
