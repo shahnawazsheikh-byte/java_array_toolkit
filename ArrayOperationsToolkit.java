@@ -3,7 +3,7 @@
  * Array Operations Toolkit
  * Author: Shahnawaz Sheikh
  * Features: 8 array operations including sorting, searching, and statistics
- * Last Updated: 01-jan-2026
+ * Last Updated: 06-jan-2026
  */
 import java.util.Arrays;
 import java.util.Scanner;
@@ -124,10 +124,10 @@ public class ArrayOperationsToolkit {
         return sorted;
     }
 
-    //      ===Bubble Sort Algorithm===
+    //      ===Optimize Bubble Sort Algorithm===
     public static void bubble_sort(int arr[]) {
         for (int i = 0; i <= arr.length - 2; i++) {
-            for (int j = 0; j <= arr.length - 2; j++) {
+            for (int j = 0; j <= arr.length - 2-i; j++) {
                 if (arr[j] > arr[j + 1]) {
                     int temp;
                     temp = arr[j];
@@ -296,4 +296,5 @@ public class ArrayOperationsToolkit {
 
     }
 }
+
 
